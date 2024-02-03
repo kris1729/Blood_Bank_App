@@ -1,0 +1,40 @@
+.sideBar {
+  height: 100vh !important;
+  /* border-radius: 5px; */
+  background-color: #020523;
+  box-shadow: 0 0 2px rgb(4, 74, 165);
+}
+
+.menu {
+  padding-top: 100px;
+}
+
+.menu-item {
+  padding-top: 30px;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+  color: white;
+}
+
+.active {
+  border-bottom: 1px solid ;
+  border-color: cyan;
+  box-shadow: 1px 1px 2px cyan;
+  background-color: #020523;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.active a,
+.active i {
+  color: cyan;
+}
